@@ -14,7 +14,7 @@ Post-hoc calibration of pre-trained models is critical for ensuring reliable inf
 conda create --name DCP --file requirement.txt
 ```
 
-2. Run Q-DCP.ipynb or H-DCP.ipynb in notebook folder to reproduce the main figures of the paper.
+2. Run `Q-DCP.ipynb` or `H-DCP.ipynb` in the `notebooks` folder to reproduce the main figures of the paper.
 
 ## Reference
 
