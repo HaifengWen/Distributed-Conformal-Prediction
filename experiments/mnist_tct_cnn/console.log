@@ -1,0 +1,27 @@
+================= MNIST_TCT_CNN ==================
+client 0 train samples 5923
+client 1 train samples 6742
+client 2 train samples 5958
+client 3 train samples 6131
+client 4 train samples 5842
+client 5 train samples 5421
+client 6 train samples 5918
+client 7 train samples 6265
+client 8 train samples 5851
+client 9 train samples 5949
+val samples--------- 1000
+test samples-------- 9000
+===================== Start Stage-1 =====================
+len(client_models)=10
+len(train_loaders)=10
+opt[0]=SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.01
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)

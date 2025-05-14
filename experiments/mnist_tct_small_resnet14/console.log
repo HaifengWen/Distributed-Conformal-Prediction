@@ -1,0 +1,294 @@
+============ MNIST_TCT_SMALL_RESNET14 ============
+============ MNIST_TCT_SMALL_RESNET14 ============
+client 0 train samples 5923
+client 1 train samples 6742
+client 2 train samples 5958
+client 3 train samples 6131
+client 4 train samples 5842
+client 5 train samples 5421
+client 6 train samples 5918
+client 7 train samples 6265
+client 8 train samples 5851
+client 9 train samples 5949
+val samples--------- 1000
+test samples-------- 9000
+===================== Start Stage-1 =====================
+len(client_models)=10
+len(train_loaders)=10
+opt[0]=SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.01
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)
+============ MNIST_TCT_SMALL_RESNET14 ============
+client 0 train samples 5923
+client 1 train samples 6742
+client 2 train samples 5958
+client 3 train samples 6131
+client 4 train samples 5842
+client 5 train samples 5421
+client 6 train samples 5918
+client 7 train samples 6265
+client 8 train samples 5851
+client 9 train samples 5949
+val samples--------- 1000
+test samples-------- 9000
+===================== Start Stage-1 =====================
+len(client_models)=10
+len(train_loaders)=10
+opt[0]=SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.01
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)
+============ MNIST_TCT_SMALL_RESNET14 ============
+============ MNIST_TCT_SMALL_RESNET14 ============
+============ MNIST_TCT_SMALL_RESNET14 ============
+client 0 train samples 5923
+client 1 train samples 6742
+client 2 train samples 5958
+client 3 train samples 6131
+client 4 train samples 5842
+client 5 train samples 5421
+client 6 train samples 5918
+client 7 train samples 6265
+client 8 train samples 5851
+client 9 train samples 5949
+val samples--------- 1000
+test samples-------- 9000
+===================== Start Stage-1 =====================
+len(client_models)=10
+len(train_loaders)=10
+opt[0]=SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.01
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)
+001 == clients == 0.000 train loss 0.000 | test loss 19.786 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.375 | test loss 2.468 | train acc 0.094 | test acc 0.101 
+002 == clients == 0.000 train loss 0.000 | test loss 18.671 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.170 | test loss 2.157 | train acc 0.120 | test acc 0.130 
+003 == clients == 0.000 train loss 0.000 | test loss 18.207 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.139 | test loss 2.170 | train acc 0.066 | test acc 0.071 
+004 == clients == 0.000 train loss 0.000 | test loss 18.384 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.121 | test loss 2.105 | train acc 0.126 | test acc 0.128 
+005 == clients == 0.000 train loss 0.000 | test loss 18.601 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.117 | test loss 2.131 | train acc 0.068 | test acc 0.054 
+006 == clients == 0.000 train loss 0.000 | test loss 18.880 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.123 | test loss 2.099 | train acc 0.123 | test acc 0.134 
+007 == clients == 0.000 train loss 0.000 | test loss 19.074 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.126 | test loss 2.148 | train acc 0.070 | test acc 0.054 
+008 == clients == 0.000 train loss 0.000 | test loss 19.404 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.148 | test loss 2.115 | train acc 0.125 | test acc 0.122 
+009 == clients == 0.000 train loss 0.000 | test loss 19.686 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.162 | test loss 2.198 | train acc 0.071 | test acc 0.076 
+010 == clients == 0.000 train loss 0.000 | test loss 19.949 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.183 | test loss 2.141 | train acc 0.134 | test acc 0.123 
+011 == clients == 0.000 train loss 0.000 | test loss 20.062 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.213 | test loss 2.268 | train acc 0.092 | test acc 0.075 
+012 == clients == 0.000 train loss 0.000 | test loss 20.419 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.234 | test loss 2.178 | train acc 0.135 | test acc 0.120 
+013 == clients == 0.000 train loss 0.000 | test loss 20.479 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.272 | test loss 2.342 | train acc 0.143 | test acc 0.135 
+014 == clients == 0.000 train loss 0.000 | test loss 20.696 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.284 | test loss 2.219 | train acc 0.122 | test acc 0.120 
+015 == clients == 0.000 train loss 0.000 | test loss 20.712 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.300 | test loss 2.370 | train acc 0.136 | test acc 0.130 
+016 == clients == 0.000 train loss 0.000 | test loss 20.774 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.310 | test loss 2.242 | train acc 0.119 | test acc 0.125 
+017 == clients == 0.000 train loss 0.000 | test loss 20.878 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.293 | test loss 2.363 | train acc 0.167 | test acc 0.156 
+018 == clients == 0.000 train loss 0.000 | test loss 20.729 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.328 | test loss 2.266 | train acc 0.115 | test acc 0.128 
+019 == clients == 0.000 train loss 0.000 | test loss 20.968 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.294 | test loss 2.356 | train acc 0.161 | test acc 0.155 
+020 == clients == 0.000 train loss 0.000 | test loss 20.700 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.336 | test loss 2.279 | train acc 0.108 | test acc 0.127 
+021 == clients == 0.000 train loss 0.000 | test loss 21.020 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.299 | test loss 2.359 | train acc 0.172 | test acc 0.172 
+022 == clients == 0.000 train loss 0.000 | test loss 20.692 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.313 | test loss 2.261 | train acc 0.111 | test acc 0.141 
+023 == clients == 0.000 train loss 0.000 | test loss 20.898 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.292 | test loss 2.344 | train acc 0.175 | test acc 0.170 
+024 == clients == 0.000 train loss 0.000 | test loss 20.602 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.300 | test loss 2.246 | train acc 0.103 | test acc 0.128 
+025 == clients == 0.000 train loss 0.000 | test loss 20.712 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.287 | test loss 2.340 | train acc 0.163 | test acc 0.149 
+026 == clients == 0.000 train loss 0.000 | test loss 20.563 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.291 | test loss 2.233 | train acc 0.102 | test acc 0.128 
+027 == clients == 0.000 train loss 0.000 | test loss 20.581 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.296 | test loss 2.344 | train acc 0.112 | test acc 0.099 
+028 == clients == 0.000 train loss 0.000 | test loss 20.629 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.291 | test loss 2.234 | train acc 0.101 | test acc 0.115 
+029 == clients == 0.000 train loss 0.000 | test loss 20.571 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.302 | test loss 2.349 | train acc 0.098 | test acc 0.099 
+030 == clients == 0.000 train loss 0.000 | test loss 20.658 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.311 | test loss 2.249 | train acc 0.117 | test acc 0.149 
+031 == clients == 0.000 train loss 0.000 | test loss 20.673 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.289 | test loss 2.328 | train acc 0.104 | test acc 0.080 
+032 == clients == 0.000 train loss 0.000 | test loss 20.628 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.335 | test loss 2.265 | train acc 0.137 | test acc 0.175 
+033 == clients == 0.000 train loss 0.000 | test loss 20.545 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.337 | test loss 2.356 | train acc 0.112 | test acc 0.113 
+034 == clients == 0.000 train loss 0.000 | test loss 20.863 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.288 | test loss 2.256 | train acc 0.105 | test acc 0.090 
+035 == clients == 0.000 train loss 0.000 | test loss 20.399 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.411 | test loss 2.390 | train acc 0.131 | test acc 0.181 
+036 == clients == 0.000 train loss 0.000 | test loss 21.177 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.293 | test loss 2.295 | train acc 0.168 | test acc 0.175 
+037 == clients == 0.000 train loss 0.000 | test loss 20.675 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.343 | test loss 2.323 | train acc 0.113 | test acc 0.148 
+038 == clients == 0.000 train loss 0.000 | test loss 20.322 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.372 | test loss 2.370 | train acc 0.100 | test acc 0.080 
+039 == clients == 0.000 train loss 0.000 | test loss 20.957 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.636 | test loss 2.545 | train acc 0.143 | test acc 0.179 
+040 == clients == 0.000 train loss 0.000 | test loss 21.356 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.340 | test loss 2.367 | train acc 0.100 | test acc 0.109 
+041 == clients == 0.000 train loss 0.000 | test loss 20.773 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.444 | test loss 2.415 | train acc 0.165 | test acc 0.179 
+042 == clients == 0.000 train loss 0.000 | test loss 20.684 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.343 | test loss 2.334 | train acc 0.100 | test acc 0.094 
+043 == clients == 0.000 train loss 0.000 | test loss 20.214 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.564 | test loss 2.477 | train acc 0.120 | test acc 0.146 
+044 == clients == 0.000 train loss 0.000 | test loss 20.973 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.202 | test loss 2.202 | train acc 0.104 | test acc 0.120 
+045 == clients == 0.000 train loss 0.000 | test loss 20.265 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.293 | test loss 2.276 | train acc 0.128 | test acc 0.160 
+046 == clients == 0.000 train loss 0.000 | test loss 19.917 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.208 | test loss 2.207 | train acc 0.091 | test acc 0.095 
+047 == clients == 0.000 train loss 0.000 | test loss 20.005 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.328 | test loss 2.281 | train acc 0.120 | test acc 0.160 
+048 == clients == 0.000 train loss 0.000 | test loss 20.236 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.383 | test loss 2.409 | train acc 0.103 | test acc 0.102 
+049 == clients == 0.000 train loss 0.000 | test loss 20.881 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.342 | test loss 2.283 | train acc 0.114 | test acc 0.153 
+050 == clients == 0.000 train loss 0.000 | test loss 20.383 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.490 | test loss 2.529 | train acc 0.101 | test acc 0.097 
+global model -- val_loss=2.783 -- val_acc=0.086 -- test_loss=2.828 -- test_acc=0.099
+051 == clients == 0.000 train loss 0.000 | test loss 20.993 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.438 | test loss 2.369 | train acc 0.116 | test acc 0.156 
+052 == clients == 0.000 train loss 0.000 | test loss 20.583 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.451 | test loss 2.499 | train acc 0.119 | test acc 0.108 
+053 == clients == 0.000 train loss 0.000 | test loss 20.543 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.323 | test loss 2.268 | train acc 0.106 | test acc 0.149 
+054 == clients == 0.000 train loss 0.000 | test loss 19.746 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.369 | test loss 2.419 | train acc 0.116 | test acc 0.092 
+055 == clients == 0.000 train loss 0.000 | test loss 20.136 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.307 | test loss 2.221 | train acc 0.102 | test acc 0.139 
+056 == clients == 0.000 train loss 0.000 | test loss 19.876 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.366 | test loss 2.425 | train acc 0.115 | test acc 0.101 
+057 == clients == 0.000 train loss 0.000 | test loss 20.120 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.310 | test loss 2.242 | train acc 0.120 | test acc 0.139 
+058 == clients == 0.000 train loss 0.000 | test loss 19.500 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.412 | test loss 2.461 | train acc 0.103 | test acc 0.102 
+059 == clients == 0.000 train loss 0.000 | test loss 20.242 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.277 | test loss 2.208 | train acc 0.125 | test acc 0.156 
+060 == clients == 0.000 train loss 0.000 | test loss 19.315 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.291 | test loss 2.330 | train acc 0.102 | test acc 0.078 
+061 == clients == 0.000 train loss 0.000 | test loss 19.707 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.277 | test loss 2.227 | train acc 0.125 | test acc 0.151 
+062 == clients == 0.000 train loss 0.000 | test loss 19.124 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.350 | test loss 2.383 | train acc 0.101 | test acc 0.087 
+063 == clients == 0.000 train loss 0.000 | test loss 19.846 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.301 | test loss 2.246 | train acc 0.165 | test acc 0.175 
+064 == clients == 0.000 train loss 0.000 | test loss 19.067 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.340 | test loss 2.349 | train acc 0.100 | test acc 0.085 
+065 == clients == 0.000 train loss 0.000 | test loss 19.841 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.319 | test loss 2.268 | train acc 0.148 | test acc 0.141 
+066 == clients == 0.000 train loss 0.000 | test loss 18.926 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.315 | test loss 2.316 | train acc 0.100 | test acc 0.090 
+067 == clients == 0.000 train loss 0.000 | test loss 19.576 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.303 | test loss 2.241 | train acc 0.124 | test acc 0.127 
+068 == clients == 0.000 train loss 0.000 | test loss 18.706 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.256 | test loss 2.266 | train acc 0.100 | test acc 0.094 
+069 == clients == 0.000 train loss 0.000 | test loss 18.926 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.376 | test loss 2.284 | train acc 0.136 | test acc 0.191 
+070 == clients == 0.000 train loss 0.000 | test loss 18.880 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.337 | test loss 2.360 | train acc 0.104 | test acc 0.095 
+071 == clients == 0.000 train loss 0.000 | test loss 19.362 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.423 | test loss 2.319 | train acc 0.105 | test acc 0.132 
+072 == clients == 0.000 train loss 0.000 | test loss 18.849 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.290 | test loss 2.331 | train acc 0.100 | test acc 0.090 
+073 == clients == 0.000 train loss 0.000 | test loss 18.925 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.355 | test loss 2.284 | train acc 0.124 | test acc 0.153 
+074 == clients == 0.000 train loss 0.000 | test loss 18.820 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.334 | test loss 2.388 | train acc 0.106 | test acc 0.094 
+075 == clients == 0.000 train loss 0.000 | test loss 18.943 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.423 | test loss 2.306 | train acc 0.101 | test acc 0.127 
+076 == clients == 0.000 train loss 0.000 | test loss 18.943 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.450 | test loss 2.504 | train acc 0.098 | test acc 0.057 
+077 == clients == 0.000 train loss 0.000 | test loss 19.791 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.366 | test loss 2.293 | train acc 0.103 | test acc 0.132 
+078 == clients == 0.000 train loss 0.000 | test loss 19.921 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.356 | test loss 2.407 | train acc 0.108 | test acc 0.101 
+079 == clients == 0.000 train loss 0.000 | test loss 19.182 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.283 | test loss 2.248 | train acc 0.170 | test acc 0.200 
+080 == clients == 0.000 train loss 0.000 | test loss 18.677 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.452 | test loss 2.465 | train acc 0.099 | test acc 0.118 
+081 == clients == 0.000 train loss 0.000 | test loss 19.851 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.263 | test loss 2.258 | train acc 0.140 | test acc 0.109 
+082 == clients == 0.000 train loss 0.000 | test loss 18.677 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.287 | test loss 2.270 | train acc 0.138 | test acc 0.193 
+083 == clients == 0.000 train loss 0.000 | test loss 18.293 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.409 | test loss 2.413 | train acc 0.105 | test acc 0.075 
+084 == clients == 0.000 train loss 0.000 | test loss 18.711 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.435 | test loss 2.411 | train acc 0.101 | test acc 0.122 
+085 == clients == 0.000 train loss 0.000 | test loss 18.768 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.371 | test loss 2.391 | train acc 0.100 | test acc 0.097 
+086 == clients == 0.000 train loss 0.000 | test loss 18.560 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.430 | test loss 2.350 | train acc 0.116 | test acc 0.128 
+087 == clients == 0.000 train loss 0.000 | test loss 19.176 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.524 | test loss 2.581 | train acc 0.119 | test acc 0.109 
+088 == clients == 0.000 train loss 0.000 | test loss 19.993 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.472 | test loss 2.428 | train acc 0.100 | test acc 0.120 
+089 == clients == 0.000 train loss 0.000 | test loss 19.590 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.277 | test loss 2.318 | train acc 0.116 | test acc 0.101 
+090 == clients == 0.000 train loss 0.000 | test loss 18.652 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.307 | test loss 2.281 | train acc 0.123 | test acc 0.174 
+091 == clients == 0.000 train loss 0.000 | test loss 18.144 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.268 | test loss 2.268 | train acc 0.126 | test acc 0.125 
+092 == clients == 0.000 train loss 0.000 | test loss 17.960 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.350 | test loss 2.312 | train acc 0.119 | test acc 0.127 
+093 == clients == 0.000 train loss 0.000 | test loss 18.620 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.330 | test loss 2.350 | train acc 0.129 | test acc 0.118 
+094 == clients == 0.000 train loss 0.000 | test loss 18.670 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.428 | test loss 2.367 | train acc 0.107 | test acc 0.134 
+095 == clients == 0.000 train loss 0.000 | test loss 18.846 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.234 | test loss 2.285 | train acc 0.130 | test acc 0.116 
+096 == clients == 0.000 train loss 0.000 | test loss 18.151 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.321 | test loss 2.304 | train acc 0.149 | test acc 0.156 
+097 == clients == 0.000 train loss 0.000 | test loss 18.858 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.653 | test loss 2.724 | train acc 0.112 | test acc 0.102 
+098 == clients == 0.000 train loss 0.000 | test loss 20.425 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.421 | test loss 2.344 | train acc 0.100 | test acc 0.120 
+099 == clients == 0.000 train loss 0.000 | test loss 18.246 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.506 | test loss 2.594 | train acc 0.103 | test acc 0.118 
+100 == clients == 0.000 train loss 0.000 | test loss 18.848 | train acc 1.000 | test acc 0.100    == global model ==  train loss 2.194 | test loss 2.159 | train acc 0.113 | test acc 0.151 
+global model -- val_loss=2.319 -- val_acc=0.128 -- test_loss=2.386 -- test_acc=0.138
+===================== Start Stage-2 =====================
+checkpoint=PosixPath('../experiments/mnist_tct_small_resnet14/checkpoints/mnist_tct_small_resnet14_stage1_model_100.pth')
+stage2 model -- client_train_loss=2.380 -- client_train_acc=0.138 -- test_loss=2.386 -- test_acc=0.138
+loaded eNTK model
+Compute eNTK representations
+normalization
+round_idx=1: train_acc=0.893 test_acc=0.903    train_max_score=0.233 test_max_score=0.777   q_10=0.673 size_10=1.0 q_20=0.516 size_20=1.0 q_30=0.377 size_30=1.0
+round_idx=2: train_acc=0.924 test_acc=0.929    train_max_score=0.414 test_max_score=0.925   q_10=0.516 size_10=1.0 q_20=0.186 size_20=1.0 q_30=0.075 size_30=1.0
+round_idx=3: train_acc=0.933 test_acc=0.937    train_max_score=0.570 test_max_score=0.932   q_10=0.424 size_10=1.0 q_20=0.165 size_20=1.0 q_30=0.062 size_30=1.0
+round_idx=4: train_acc=0.940 test_acc=0.942    train_max_score=0.675 test_max_score=0.936   q_10=0.356 size_10=1.0 q_20=0.136 size_20=1.0 q_30=0.058 size_30=1.0
+round_idx=5: train_acc=0.946 test_acc=0.947    train_max_score=0.744 test_max_score=0.941   q_10=0.328 size_10=1.0 q_20=0.113 size_20=1.0 q_30=0.051 size_30=1.0
+round_idx=6: train_acc=0.951 test_acc=0.950    train_max_score=0.790 test_max_score=0.946   q_10=0.304 size_10=1.0 q_20=0.097 size_20=1.0 q_30=0.044 size_30=1.0
+round_idx=7: train_acc=0.955 test_acc=0.954    train_max_score=0.824 test_max_score=0.951   q_10=0.281 size_10=1.0 q_20=0.084 size_20=1.0 q_30=0.038 size_30=1.0
+round_idx=8: train_acc=0.959 test_acc=0.957    train_max_score=0.850 test_max_score=0.955   q_10=0.242 size_10=1.0 q_20=0.071 size_20=1.0 q_30=0.032 size_30=1.0
+round_idx=9: train_acc=0.962 test_acc=0.958    train_max_score=0.870 test_max_score=0.959   q_10=0.211 size_10=1.0 q_20=0.063 size_20=1.0 q_30=0.026 size_30=1.0
+round_idx=10: train_acc=0.964 test_acc=0.961    train_max_score=0.886 test_max_score=0.961   q_10=0.195 size_10=1.0 q_20=0.053 size_20=1.0 q_30=0.022 size_30=1.0
+round_idx=11: train_acc=0.967 test_acc=0.962    train_max_score=0.899 test_max_score=0.964   q_10=0.191 size_10=1.0 q_20=0.046 size_20=1.0 q_30=0.018 size_30=1.0
+round_idx=12: train_acc=0.969 test_acc=0.964    train_max_score=0.910 test_max_score=0.965   q_10=0.188 size_10=1.0 q_20=0.041 size_20=1.0 q_30=0.015 size_30=1.0
+round_idx=13: train_acc=0.971 test_acc=0.965    train_max_score=0.918 test_max_score=0.967   q_10=0.179 size_10=1.0 q_20=0.037 size_20=1.0 q_30=0.013 size_30=1.0
+round_idx=14: train_acc=0.972 test_acc=0.966    train_max_score=0.925 test_max_score=0.968   q_10=0.160 size_10=1.0 q_20=0.032 size_20=1.0 q_30=0.012 size_30=1.0
+round_idx=15: train_acc=0.973 test_acc=0.967    train_max_score=0.931 test_max_score=0.969   q_10=0.152 size_10=1.0 q_20=0.028 size_20=1.0 q_30=0.011 size_30=1.0
+round_idx=16: train_acc=0.974 test_acc=0.968    train_max_score=0.936 test_max_score=0.970   q_10=0.145 size_10=1.0 q_20=0.025 size_20=1.0 q_30=0.010 size_30=1.0
+round_idx=17: train_acc=0.975 test_acc=0.970    train_max_score=0.940 test_max_score=0.971   q_10=0.135 size_10=1.0 q_20=0.023 size_20=1.0 q_30=0.009 size_30=1.0
+round_idx=18: train_acc=0.977 test_acc=0.970    train_max_score=0.944 test_max_score=0.972   q_10=0.127 size_10=1.0 q_20=0.021 size_20=1.0 q_30=0.008 size_30=1.0
+round_idx=19: train_acc=0.977 test_acc=0.972    train_max_score=0.947 test_max_score=0.973   q_10=0.127 size_10=1.0 q_20=0.019 size_20=1.0 q_30=0.007 size_30=1.0
+round_idx=20: train_acc=0.978 test_acc=0.972    train_max_score=0.949 test_max_score=0.974   q_10=0.121 size_10=1.0 q_20=0.018 size_20=1.0 q_30=0.007 size_30=1.0
+round_idx=21: train_acc=0.980 test_acc=0.973    train_max_score=0.952 test_max_score=0.974   q_10=0.117 size_10=1.0 q_20=0.017 size_20=1.0 q_30=0.006 size_30=1.0
+round_idx=22: train_acc=0.980 test_acc=0.973    train_max_score=0.954 test_max_score=0.975   q_10=0.106 size_10=1.0 q_20=0.016 size_20=1.0 q_30=0.005 size_30=1.0
+round_idx=23: train_acc=0.981 test_acc=0.973    train_max_score=0.955 test_max_score=0.975   q_10=0.097 size_10=1.0 q_20=0.016 size_20=1.0 q_30=0.004 size_30=1.0
+round_idx=24: train_acc=0.982 test_acc=0.974    train_max_score=0.957 test_max_score=0.976   q_10=0.094 size_10=1.0 q_20=0.015 size_20=1.0 q_30=0.004 size_30=1.0
+round_idx=25: train_acc=0.982 test_acc=0.974    train_max_score=0.958 test_max_score=0.976   q_10=0.088 size_10=1.0 q_20=0.014 size_20=1.0 q_30=0.004 size_30=1.0
+round_idx=26: train_acc=0.983 test_acc=0.974    train_max_score=0.960 test_max_score=0.977   q_10=0.085 size_10=1.0 q_20=0.013 size_20=1.0 q_30=0.004 size_30=1.0
+round_idx=27: train_acc=0.984 test_acc=0.975    train_max_score=0.961 test_max_score=0.977   q_10=0.083 size_10=1.0 q_20=0.013 size_20=1.0 q_30=0.003 size_30=1.0
+round_idx=28: train_acc=0.984 test_acc=0.975    train_max_score=0.962 test_max_score=0.977   q_10=0.077 size_10=1.0 q_20=0.012 size_20=1.0 q_30=0.003 size_30=1.0
+round_idx=29: train_acc=0.985 test_acc=0.976    train_max_score=0.963 test_max_score=0.978   q_10=0.073 size_10=1.0 q_20=0.012 size_20=1.0 q_30=0.003 size_30=1.0
+round_idx=30: train_acc=0.985 test_acc=0.976    train_max_score=0.964 test_max_score=0.978   q_10=0.073 size_10=1.0 q_20=0.011 size_20=1.0 q_30=0.003 size_30=1.0
+round_idx=31: train_acc=0.986 test_acc=0.976    train_max_score=0.964 test_max_score=0.978   q_10=0.070 size_10=1.0 q_20=0.011 size_20=1.0 q_30=0.003 size_30=1.0
+round_idx=32: train_acc=0.986 test_acc=0.976    train_max_score=0.965 test_max_score=0.979   q_10=0.067 size_10=1.0 q_20=0.010 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=33: train_acc=0.986 test_acc=0.976    train_max_score=0.966 test_max_score=0.979   q_10=0.065 size_10=1.0 q_20=0.010 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=34: train_acc=0.987 test_acc=0.976    train_max_score=0.966 test_max_score=0.979   q_10=0.062 size_10=1.0 q_20=0.010 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=35: train_acc=0.987 test_acc=0.976    train_max_score=0.967 test_max_score=0.979   q_10=0.060 size_10=1.0 q_20=0.009 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=36: train_acc=0.988 test_acc=0.976    train_max_score=0.968 test_max_score=0.979   q_10=0.059 size_10=1.0 q_20=0.009 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=37: train_acc=0.988 test_acc=0.977    train_max_score=0.968 test_max_score=0.980   q_10=0.059 size_10=1.0 q_20=0.009 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=38: train_acc=0.988 test_acc=0.977    train_max_score=0.969 test_max_score=0.980   q_10=0.056 size_10=1.0 q_20=0.008 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=39: train_acc=0.989 test_acc=0.977    train_max_score=0.969 test_max_score=0.980   q_10=0.054 size_10=1.0 q_20=0.008 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=40: train_acc=0.989 test_acc=0.977    train_max_score=0.970 test_max_score=0.980   q_10=0.053 size_10=1.0 q_20=0.008 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=41: train_acc=0.989 test_acc=0.977    train_max_score=0.970 test_max_score=0.980   q_10=0.052 size_10=1.0 q_20=0.008 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=42: train_acc=0.990 test_acc=0.978    train_max_score=0.971 test_max_score=0.980   q_10=0.051 size_10=1.0 q_20=0.008 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=43: train_acc=0.990 test_acc=0.978    train_max_score=0.971 test_max_score=0.981   q_10=0.050 size_10=1.0 q_20=0.008 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=44: train_acc=0.990 test_acc=0.979    train_max_score=0.971 test_max_score=0.981   q_10=0.049 size_10=1.0 q_20=0.007 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=45: train_acc=0.990 test_acc=0.979    train_max_score=0.972 test_max_score=0.981   q_10=0.048 size_10=1.0 q_20=0.007 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=46: train_acc=0.991 test_acc=0.979    train_max_score=0.972 test_max_score=0.981   q_10=0.047 size_10=1.0 q_20=0.007 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=47: train_acc=0.991 test_acc=0.979    train_max_score=0.972 test_max_score=0.981   q_10=0.047 size_10=1.0 q_20=0.007 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=48: train_acc=0.991 test_acc=0.979    train_max_score=0.973 test_max_score=0.981   q_10=0.046 size_10=1.0 q_20=0.007 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=49: train_acc=0.991 test_acc=0.979    train_max_score=0.973 test_max_score=0.981   q_10=0.045 size_10=1.0 q_20=0.007 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=50: train_acc=0.992 test_acc=0.979    train_max_score=0.973 test_max_score=0.981   q_10=0.042 size_10=1.0 q_20=0.007 size_20=1.0 q_30=0.002 size_30=1.0
+round_idx=51: train_acc=0.992 test_acc=0.979    train_max_score=0.974 test_max_score=0.982   q_10=0.042 size_10=1.0 q_20=0.007 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=52: train_acc=0.992 test_acc=0.979    train_max_score=0.974 test_max_score=0.982   q_10=0.042 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=53: train_acc=0.992 test_acc=0.980    train_max_score=0.974 test_max_score=0.982   q_10=0.042 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=54: train_acc=0.992 test_acc=0.980    train_max_score=0.975 test_max_score=0.982   q_10=0.041 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=55: train_acc=0.992 test_acc=0.980    train_max_score=0.975 test_max_score=0.982   q_10=0.041 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=56: train_acc=0.993 test_acc=0.980    train_max_score=0.975 test_max_score=0.982   q_10=0.041 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=57: train_acc=0.993 test_acc=0.980    train_max_score=0.975 test_max_score=0.982   q_10=0.041 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=58: train_acc=0.993 test_acc=0.980    train_max_score=0.976 test_max_score=0.982   q_10=0.041 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=59: train_acc=0.993 test_acc=0.980    train_max_score=0.976 test_max_score=0.982   q_10=0.041 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=60: train_acc=0.993 test_acc=0.980    train_max_score=0.976 test_max_score=0.982   q_10=0.042 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=61: train_acc=0.993 test_acc=0.980    train_max_score=0.976 test_max_score=0.982   q_10=0.041 size_10=1.0 q_20=0.006 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=62: train_acc=0.994 test_acc=0.980    train_max_score=0.977 test_max_score=0.983   q_10=0.040 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=63: train_acc=0.994 test_acc=0.981    train_max_score=0.977 test_max_score=0.983   q_10=0.039 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=64: train_acc=0.994 test_acc=0.981    train_max_score=0.977 test_max_score=0.983   q_10=0.038 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=65: train_acc=0.994 test_acc=0.981    train_max_score=0.977 test_max_score=0.983   q_10=0.038 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=66: train_acc=0.994 test_acc=0.981    train_max_score=0.977 test_max_score=0.983   q_10=0.037 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=67: train_acc=0.994 test_acc=0.981    train_max_score=0.978 test_max_score=0.983   q_10=0.036 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=68: train_acc=0.994 test_acc=0.981    train_max_score=0.978 test_max_score=0.983   q_10=0.035 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=69: train_acc=0.994 test_acc=0.981    train_max_score=0.978 test_max_score=0.983   q_10=0.035 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=70: train_acc=0.995 test_acc=0.981    train_max_score=0.978 test_max_score=0.983   q_10=0.034 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=71: train_acc=0.995 test_acc=0.981    train_max_score=0.978 test_max_score=0.983   q_10=0.034 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=72: train_acc=0.995 test_acc=0.981    train_max_score=0.979 test_max_score=0.983   q_10=0.033 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=73: train_acc=0.995 test_acc=0.981    train_max_score=0.979 test_max_score=0.983   q_10=0.033 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=74: train_acc=0.995 test_acc=0.981    train_max_score=0.979 test_max_score=0.983   q_10=0.032 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=75: train_acc=0.995 test_acc=0.981    train_max_score=0.979 test_max_score=0.983   q_10=0.032 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=76: train_acc=0.995 test_acc=0.982    train_max_score=0.979 test_max_score=0.983   q_10=0.032 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=77: train_acc=0.995 test_acc=0.982    train_max_score=0.980 test_max_score=0.983   q_10=0.032 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=78: train_acc=0.995 test_acc=0.982    train_max_score=0.980 test_max_score=0.983   q_10=0.032 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=79: train_acc=0.995 test_acc=0.982    train_max_score=0.980 test_max_score=0.983   q_10=0.032 size_10=1.0 q_20=0.005 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=80: train_acc=0.995 test_acc=0.982    train_max_score=0.980 test_max_score=0.984   q_10=0.032 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=81: train_acc=0.996 test_acc=0.982    train_max_score=0.980 test_max_score=0.984   q_10=0.032 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=82: train_acc=0.996 test_acc=0.982    train_max_score=0.980 test_max_score=0.984   q_10=0.032 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=83: train_acc=0.996 test_acc=0.982    train_max_score=0.980 test_max_score=0.984   q_10=0.032 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=84: train_acc=0.996 test_acc=0.982    train_max_score=0.981 test_max_score=0.984   q_10=0.031 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=85: train_acc=0.996 test_acc=0.982    train_max_score=0.981 test_max_score=0.984   q_10=0.031 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=86: train_acc=0.996 test_acc=0.982    train_max_score=0.981 test_max_score=0.984   q_10=0.031 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=87: train_acc=0.996 test_acc=0.982    train_max_score=0.981 test_max_score=0.984   q_10=0.031 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=88: train_acc=0.996 test_acc=0.982    train_max_score=0.981 test_max_score=0.984   q_10=0.031 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=89: train_acc=0.996 test_acc=0.982    train_max_score=0.981 test_max_score=0.984   q_10=0.030 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=90: train_acc=0.996 test_acc=0.982    train_max_score=0.981 test_max_score=0.984   q_10=0.030 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=91: train_acc=0.996 test_acc=0.982    train_max_score=0.982 test_max_score=0.984   q_10=0.030 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=92: train_acc=0.996 test_acc=0.982    train_max_score=0.982 test_max_score=0.984   q_10=0.029 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=93: train_acc=0.996 test_acc=0.982    train_max_score=0.982 test_max_score=0.984   q_10=0.029 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=94: train_acc=0.996 test_acc=0.982    train_max_score=0.982 test_max_score=0.984   q_10=0.029 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=95: train_acc=0.997 test_acc=0.982    train_max_score=0.982 test_max_score=0.984   q_10=0.028 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=96: train_acc=0.997 test_acc=0.982    train_max_score=0.982 test_max_score=0.984   q_10=0.028 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=97: train_acc=0.997 test_acc=0.982    train_max_score=0.982 test_max_score=0.984   q_10=0.027 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=98: train_acc=0.997 test_acc=0.982    train_max_score=0.982 test_max_score=0.984   q_10=0.027 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=99: train_acc=0.997 test_acc=0.982    train_max_score=0.983 test_max_score=0.984   q_10=0.027 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+round_idx=100: train_acc=0.997 test_acc=0.982    train_max_score=0.983 test_max_score=0.984   q_10=0.027 size_10=1.0 q_20=0.004 size_20=1.0 q_30=0.001 size_30=1.0
+ Finished TCT Stage-2 
+==========total runtime 21529===========

@@ -1,0 +1,18 @@
+======= DERMAMNIST_CENTRAL_SMALL_RESNET14 ========
+client 0 train samples 7007
+val samples--------- 200
+test samples-------- 1805
+===================== Start Stage-1 =====================
+len(client_models)=1
+len(train_loaders)=1
+opt[0]=SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.01
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)

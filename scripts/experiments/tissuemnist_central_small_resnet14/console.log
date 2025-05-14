@@ -1,0 +1,223 @@
+======= TISSUEMNIST_CENTRAL_SMALL_RESNET14 =======
+client 0 train samples 10000
+val samples--------- 1000
+test samples-------- 10000
+===================== Start Stage-1 =====================
+len(client_models)=1
+len(train_loaders)=1
+opt[0]=SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.01
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)
+001 == clients == 1.589 train loss 1.299 | test loss 1.280 | train acc 0.464 | test acc 0.504    == global model ==  train loss 1.284 | test loss 1.205 | train acc 0.476 | test acc 0.521 
+002 == clients == 1.393 train loss 1.489 | test loss 1.589 | train acc 0.420 | test acc 0.475    == global model ==  train loss 1.520 | test loss 1.485 | train acc 0.451 | test acc 0.477 
+003 == clients == 1.330 train loss 1.358 | test loss 1.254 | train acc 0.498 | test acc 0.517    == global model ==  train loss 1.276 | test loss 1.230 | train acc 0.477 | test acc 0.517 
+004 == clients == 1.295 train loss 1.132 | test loss 1.160 | train acc 0.528 | test acc 0.522    == global model ==  train loss 1.188 | test loss 1.127 | train acc 0.502 | test acc 0.523 
+005 == clients == 1.274 train loss 1.074 | test loss 1.163 | train acc 0.576 | test acc 0.540    == global model ==  train loss 1.140 | test loss 1.120 | train acc 0.519 | test acc 0.533 
+006 == clients == 1.239 train loss 1.442 | test loss 1.595 | train acc 0.405 | test acc 0.405    == global model ==  train loss 1.483 | test loss 1.531 | train acc 0.382 | test acc 0.394 
+007 == clients == 1.221 train loss 1.173 | test loss 1.168 | train acc 0.526 | test acc 0.553    == global model ==  train loss 1.169 | test loss 1.126 | train acc 0.530 | test acc 0.550 
+008 == clients == 1.193 train loss 1.030 | test loss 1.061 | train acc 0.582 | test acc 0.578    == global model ==  train loss 1.022 | test loss 1.029 | train acc 0.595 | test acc 0.576 
+009 == clients == 1.181 train loss 1.067 | test loss 1.087 | train acc 0.552 | test acc 0.554    == global model ==  train loss 1.074 | test loss 1.064 | train acc 0.564 | test acc 0.547 
+010 == clients == 1.162 train loss 1.086 | test loss 1.076 | train acc 0.566 | test acc 0.575    == global model ==  train loss 1.138 | test loss 1.041 | train acc 0.526 | test acc 0.576 
+011 == clients == 1.159 train loss 1.097 | test loss 1.081 | train acc 0.509 | test acc 0.555    == global model ==  train loss 0.976 | test loss 1.071 | train acc 0.590 | test acc 0.545 
+012 == clients == 1.135 train loss 0.966 | test loss 1.063 | train acc 0.594 | test acc 0.578    == global model ==  train loss 1.057 | test loss 1.036 | train acc 0.547 | test acc 0.576 
+013 == clients == 1.127 train loss 1.387 | test loss 1.437 | train acc 0.476 | test acc 0.448    == global model ==  train loss 1.343 | test loss 1.427 | train acc 0.438 | test acc 0.434 
+014 == clients == 1.120 train loss 1.125 | test loss 1.213 | train acc 0.571 | test acc 0.565    == global model ==  train loss 1.278 | test loss 1.159 | train acc 0.543 | test acc 0.566 
+015 == clients == 1.108 train loss 0.987 | test loss 1.052 | train acc 0.583 | test acc 0.611    == global model ==  train loss 0.977 | test loss 1.029 | train acc 0.618 | test acc 0.604 
+016 == clients == 1.105 train loss 1.046 | test loss 1.111 | train acc 0.559 | test acc 0.575    == global model ==  train loss 1.117 | test loss 1.073 | train acc 0.552 | test acc 0.566 
+017 == clients == 1.097 train loss 1.018 | test loss 1.001 | train acc 0.582 | test acc 0.611    == global model ==  train loss 0.874 | test loss 0.968 | train acc 0.639 | test acc 0.608 
+018 == clients == 1.082 train loss 1.014 | test loss 1.056 | train acc 0.562 | test acc 0.609    == global model ==  train loss 1.049 | test loss 1.023 | train acc 0.582 | test acc 0.608 
+019 == clients == 1.072 train loss 0.971 | test loss 1.043 | train acc 0.616 | test acc 0.599    == global model ==  train loss 1.017 | test loss 1.021 | train acc 0.589 | test acc 0.594 
+020 == clients == 1.073 train loss 1.042 | test loss 1.136 | train acc 0.597 | test acc 0.583    == global model ==  train loss 0.984 | test loss 1.098 | train acc 0.609 | test acc 0.583 
+021 == clients == 1.060 train loss 0.930 | test loss 0.981 | train acc 0.630 | test acc 0.619    == global model ==  train loss 0.975 | test loss 0.977 | train acc 0.597 | test acc 0.611 
+022 == clients == 1.055 train loss 0.961 | test loss 0.991 | train acc 0.597 | test acc 0.611    == global model ==  train loss 0.905 | test loss 0.969 | train acc 0.630 | test acc 0.606 
+023 == clients == 1.039 train loss 0.956 | test loss 1.065 | train acc 0.615 | test acc 0.596    == global model ==  train loss 1.035 | test loss 1.039 | train acc 0.604 | test acc 0.597 
+024 == clients == 1.037 train loss 0.980 | test loss 1.082 | train acc 0.622 | test acc 0.577    == global model ==  train loss 0.975 | test loss 1.067 | train acc 0.609 | test acc 0.571 
+025 == clients == 1.042 train loss 0.941 | test loss 1.089 | train acc 0.630 | test acc 0.577    == global model ==  train loss 0.996 | test loss 1.072 | train acc 0.582 | test acc 0.569 
+026 == clients == 1.030 train loss 0.872 | test loss 1.039 | train acc 0.653 | test acc 0.602    == global model ==  train loss 0.953 | test loss 1.010 | train acc 0.608 | test acc 0.599 
+027 == clients == 1.023 train loss 0.837 | test loss 1.050 | train acc 0.670 | test acc 0.597    == global model ==  train loss 0.886 | test loss 1.031 | train acc 0.615 | test acc 0.587 
+028 == clients == 1.010 train loss 0.892 | test loss 1.022 | train acc 0.625 | test acc 0.607    == global model ==  train loss 0.898 | test loss 0.989 | train acc 0.651 | test acc 0.609 
+029 == clients == 1.003 train loss 1.019 | test loss 1.171 | train acc 0.585 | test acc 0.556    == global model ==  train loss 0.963 | test loss 1.165 | train acc 0.597 | test acc 0.550 
+030 == clients == 1.011 train loss 0.983 | test loss 1.060 | train acc 0.589 | test acc 0.585    == global model ==  train loss 0.922 | test loss 1.051 | train acc 0.627 | test acc 0.573 
+031 == clients == 1.003 train loss 0.872 | test loss 1.061 | train acc 0.627 | test acc 0.595    == global model ==  train loss 0.904 | test loss 1.026 | train acc 0.632 | test acc 0.590 
+032 == clients == 0.989 train loss 0.809 | test loss 1.043 | train acc 0.670 | test acc 0.603    == global model ==  train loss 0.903 | test loss 1.042 | train acc 0.637 | test acc 0.597 
+033 == clients == 0.979 train loss 0.833 | test loss 1.057 | train acc 0.674 | test acc 0.612    == global model ==  train loss 0.923 | test loss 1.041 | train acc 0.618 | test acc 0.609 
+034 == clients == 0.974 train loss 0.993 | test loss 1.201 | train acc 0.595 | test acc 0.558    == global model ==  train loss 0.972 | test loss 1.202 | train acc 0.602 | test acc 0.540 
+035 == clients == 0.985 train loss 0.903 | test loss 1.034 | train acc 0.632 | test acc 0.618    == global model ==  train loss 0.865 | test loss 1.005 | train acc 0.648 | test acc 0.623 
+036 == clients == 0.965 train loss 0.884 | test loss 1.021 | train acc 0.627 | test acc 0.626    == global model ==  train loss 0.910 | test loss 1.006 | train acc 0.618 | test acc 0.625 
+037 == clients == 0.964 train loss 0.868 | test loss 1.064 | train acc 0.653 | test acc 0.585    == global model ==  train loss 0.877 | test loss 1.035 | train acc 0.646 | test acc 0.578 
+038 == clients == 0.960 train loss 0.984 | test loss 1.115 | train acc 0.604 | test acc 0.583    == global model ==  train loss 0.940 | test loss 1.069 | train acc 0.618 | test acc 0.580 
+039 == clients == 0.963 train loss 0.893 | test loss 1.127 | train acc 0.628 | test acc 0.593    == global model ==  train loss 0.879 | test loss 1.094 | train acc 0.651 | test acc 0.595 
+040 == clients == 0.942 train loss 0.905 | test loss 1.101 | train acc 0.613 | test acc 0.571    == global model ==  train loss 0.894 | test loss 1.072 | train acc 0.618 | test acc 0.575 
+041 == clients == 0.939 train loss 0.815 | test loss 0.971 | train acc 0.660 | test acc 0.651    == global model ==  train loss 0.811 | test loss 0.939 | train acc 0.658 | test acc 0.660 
+042 == clients == 0.938 train loss 0.790 | test loss 1.029 | train acc 0.688 | test acc 0.607    == global model ==  train loss 0.812 | test loss 1.005 | train acc 0.667 | test acc 0.604 
+043 == clients == 0.932 train loss 0.766 | test loss 1.013 | train acc 0.689 | test acc 0.615    == global model ==  train loss 0.794 | test loss 0.977 | train acc 0.660 | test acc 0.623 
+044 == clients == 0.926 train loss 0.800 | test loss 1.015 | train acc 0.670 | test acc 0.618    == global model ==  train loss 0.801 | test loss 0.981 | train acc 0.679 | test acc 0.609 
+045 == clients == 0.920 train loss 0.852 | test loss 1.043 | train acc 0.655 | test acc 0.612    == global model ==  train loss 0.864 | test loss 1.035 | train acc 0.625 | test acc 0.599 
+046 == clients == 0.912 train loss 0.870 | test loss 1.108 | train acc 0.641 | test acc 0.579    == global model ==  train loss 0.900 | test loss 1.084 | train acc 0.642 | test acc 0.575 
+047 == clients == 0.914 train loss 0.795 | test loss 0.982 | train acc 0.665 | test acc 0.635    == global model ==  train loss 0.748 | test loss 0.944 | train acc 0.688 | test acc 0.630 
+048 == clients == 0.900 train loss 0.795 | test loss 1.121 | train acc 0.675 | test acc 0.593    == global model ==  train loss 0.951 | test loss 1.102 | train acc 0.625 | test acc 0.587 
+049 == clients == 0.898 train loss 0.789 | test loss 1.041 | train acc 0.679 | test acc 0.631    == global model ==  train loss 0.791 | test loss 1.014 | train acc 0.684 | test acc 0.630 
+050 == clients == 0.894 train loss 0.690 | test loss 0.994 | train acc 0.722 | test acc 0.642    == global model ==  train loss 0.785 | test loss 0.946 | train acc 0.677 | test acc 0.642 
+global model -- val_loss=1.117 -- val_acc=0.595 -- test_loss=1.137 -- test_acc=0.603
+051 == clients == 0.893 train loss 0.757 | test loss 1.010 | train acc 0.689 | test acc 0.617    == global model ==  train loss 0.756 | test loss 0.976 | train acc 0.672 | test acc 0.611 
+052 == clients == 0.878 train loss 0.818 | test loss 1.034 | train acc 0.667 | test acc 0.631    == global model ==  train loss 0.727 | test loss 0.989 | train acc 0.717 | test acc 0.635 
+053 == clients == 0.880 train loss 0.744 | test loss 1.076 | train acc 0.691 | test acc 0.632    == global model ==  train loss 0.782 | test loss 1.030 | train acc 0.682 | test acc 0.639 
+054 == clients == 0.872 train loss 0.784 | test loss 1.050 | train acc 0.675 | test acc 0.619    == global model ==  train loss 0.787 | test loss 1.022 | train acc 0.682 | test acc 0.620 
+055 == clients == 0.873 train loss 0.855 | test loss 1.109 | train acc 0.644 | test acc 0.617    == global model ==  train loss 0.848 | test loss 1.073 | train acc 0.665 | test acc 0.615 
+056 == clients == 0.862 train loss 0.828 | test loss 1.062 | train acc 0.658 | test acc 0.609    == global model ==  train loss 0.751 | test loss 1.026 | train acc 0.688 | test acc 0.604 
+057 == clients == 0.857 train loss 0.739 | test loss 1.037 | train acc 0.696 | test acc 0.609    == global model ==  train loss 0.762 | test loss 0.995 | train acc 0.684 | test acc 0.613 
+058 == clients == 0.856 train loss 0.782 | test loss 1.099 | train acc 0.679 | test acc 0.615    == global model ==  train loss 0.792 | test loss 1.040 | train acc 0.672 | test acc 0.606 
+059 == clients == 0.854 train loss 0.770 | test loss 1.158 | train acc 0.682 | test acc 0.576    == global model ==  train loss 0.800 | test loss 1.111 | train acc 0.672 | test acc 0.568 
+060 == clients == 0.848 train loss 1.032 | test loss 1.336 | train acc 0.564 | test acc 0.546    == global model ==  train loss 0.970 | test loss 1.330 | train acc 0.622 | test acc 0.540 
+061 == clients == 0.838 train loss 0.806 | test loss 1.150 | train acc 0.689 | test acc 0.589    == global model ==  train loss 0.812 | test loss 1.149 | train acc 0.677 | test acc 0.571 
+062 == clients == 0.833 train loss 0.608 | test loss 1.134 | train acc 0.766 | test acc 0.624    == global model ==  train loss 0.825 | test loss 1.099 | train acc 0.668 | test acc 0.632 
+063 == clients == 0.832 train loss 0.809 | test loss 1.075 | train acc 0.674 | test acc 0.643    == global model ==  train loss 0.690 | test loss 1.037 | train acc 0.715 | test acc 0.637 
+064 == clients == 0.835 train loss 0.702 | test loss 1.155 | train acc 0.712 | test acc 0.593    == global model ==  train loss 0.801 | test loss 1.124 | train acc 0.670 | test acc 0.580 
+065 == clients == 0.831 train loss 0.796 | test loss 1.182 | train acc 0.660 | test acc 0.590    == global model ==  train loss 0.777 | test loss 1.073 | train acc 0.698 | test acc 0.599 
+066 == clients == 0.814 train loss 0.698 | test loss 1.048 | train acc 0.720 | test acc 0.635    == global model ==  train loss 0.699 | test loss 0.998 | train acc 0.688 | test acc 0.637 
+067 == clients == 0.803 train loss 0.865 | test loss 1.374 | train acc 0.637 | test acc 0.561    == global model ==  train loss 0.846 | test loss 1.311 | train acc 0.628 | test acc 0.569 
+068 == clients == 0.803 train loss 0.758 | test loss 1.074 | train acc 0.698 | test acc 0.637    == global model ==  train loss 0.730 | test loss 1.061 | train acc 0.703 | test acc 0.625 
+069 == clients == 0.795 train loss 0.669 | test loss 1.080 | train acc 0.731 | test acc 0.619    == global model ==  train loss 0.741 | test loss 1.053 | train acc 0.667 | test acc 0.616 
+070 == clients == 0.788 train loss 0.721 | test loss 1.057 | train acc 0.694 | test acc 0.611    == global model ==  train loss 0.705 | test loss 1.027 | train acc 0.682 | test acc 0.604 
+071 == clients == 0.788 train loss 0.657 | test loss 1.127 | train acc 0.710 | test acc 0.589    == global model ==  train loss 0.740 | test loss 1.092 | train acc 0.698 | test acc 0.575 
+072 == clients == 0.779 train loss 0.649 | test loss 1.109 | train acc 0.738 | test acc 0.629    == global model ==  train loss 0.699 | test loss 1.069 | train acc 0.707 | test acc 0.630 
+073 == clients == 0.771 train loss 0.740 | test loss 1.165 | train acc 0.684 | test acc 0.621    == global model ==  train loss 0.748 | test loss 1.084 | train acc 0.689 | test acc 0.627 
+074 == clients == 0.772 train loss 0.693 | test loss 1.165 | train acc 0.729 | test acc 0.603    == global model ==  train loss 0.664 | test loss 1.112 | train acc 0.722 | test acc 0.599 
+075 == clients == 0.776 train loss 0.635 | test loss 1.186 | train acc 0.747 | test acc 0.607    == global model ==  train loss 0.663 | test loss 1.156 | train acc 0.734 | test acc 0.608 
+076 == clients == 0.748 train loss 0.616 | test loss 1.086 | train acc 0.743 | test acc 0.614    == global model ==  train loss 0.664 | test loss 1.048 | train acc 0.727 | test acc 0.606 
+077 == clients == 0.760 train loss 0.778 | test loss 1.274 | train acc 0.677 | test acc 0.600    == global model ==  train loss 0.714 | test loss 1.276 | train acc 0.707 | test acc 0.582 
+078 == clients == 0.749 train loss 0.698 | test loss 1.162 | train acc 0.712 | test acc 0.595    == global model ==  train loss 0.643 | test loss 1.143 | train acc 0.724 | test acc 0.583 
+079 == clients == 0.751 train loss 0.738 | test loss 1.271 | train acc 0.703 | test acc 0.579    == global model ==  train loss 0.741 | test loss 1.283 | train acc 0.703 | test acc 0.561 
+080 == clients == 0.736 train loss 0.589 | test loss 1.218 | train acc 0.755 | test acc 0.570    == global model ==  train loss 0.669 | test loss 1.211 | train acc 0.717 | test acc 0.554 
+081 == clients == 0.734 train loss 0.672 | test loss 1.096 | train acc 0.729 | test acc 0.615    == global model ==  train loss 0.627 | test loss 1.054 | train acc 0.753 | test acc 0.606 
+082 == clients == 0.717 train loss 0.721 | test loss 1.217 | train acc 0.700 | test acc 0.596    == global model ==  train loss 0.622 | test loss 1.162 | train acc 0.743 | test acc 0.601 
+083 == clients == 0.720 train loss 0.696 | test loss 1.481 | train acc 0.694 | test acc 0.508    == global model ==  train loss 0.737 | test loss 1.396 | train acc 0.691 | test acc 0.502 
+084 == clients == 0.718 train loss 0.638 | test loss 1.215 | train acc 0.736 | test acc 0.606    == global model ==  train loss 0.636 | test loss 1.175 | train acc 0.745 | test acc 0.608 
+085 == clients == 0.719 train loss 0.734 | test loss 1.262 | train acc 0.689 | test acc 0.575    == global model ==  train loss 0.650 | test loss 1.214 | train acc 0.734 | test acc 0.573 
+086 == clients == 0.723 train loss 0.652 | test loss 1.184 | train acc 0.729 | test acc 0.572    == global model ==  train loss 0.629 | test loss 1.139 | train acc 0.726 | test acc 0.564 
+087 == clients == 0.702 train loss 0.730 | test loss 1.360 | train acc 0.691 | test acc 0.556    == global model ==  train loss 0.752 | test loss 1.329 | train acc 0.715 | test acc 0.549 
+088 == clients == 0.699 train loss 0.708 | test loss 1.391 | train acc 0.703 | test acc 0.556    == global model ==  train loss 0.693 | test loss 1.366 | train acc 0.717 | test acc 0.554 
+089 == clients == 0.707 train loss 0.588 | test loss 1.241 | train acc 0.785 | test acc 0.594    == global model ==  train loss 0.597 | test loss 1.189 | train acc 0.747 | test acc 0.587 
+090 == clients == 0.681 train loss 0.629 | test loss 1.285 | train acc 0.740 | test acc 0.575    == global model ==  train loss 0.658 | test loss 1.256 | train acc 0.729 | test acc 0.564 
+091 == clients == 0.689 train loss 0.643 | test loss 1.228 | train acc 0.734 | test acc 0.571    == global model ==  train loss 0.596 | test loss 1.212 | train acc 0.734 | test acc 0.562 
+092 == clients == 0.672 train loss 0.546 | test loss 1.254 | train acc 0.780 | test acc 0.596    == global model ==  train loss 0.581 | test loss 1.198 | train acc 0.760 | test acc 0.589 
+093 == clients == 0.681 train loss 0.657 | test loss 1.274 | train acc 0.717 | test acc 0.611    == global model ==  train loss 0.634 | test loss 1.250 | train acc 0.724 | test acc 0.602 
+094 == clients == 0.676 train loss 0.730 | test loss 1.278 | train acc 0.682 | test acc 0.612    == global model ==  train loss 0.642 | test loss 1.233 | train acc 0.750 | test acc 0.604 
+095 == clients == 0.671 train loss 0.631 | test loss 1.302 | train acc 0.733 | test acc 0.581    == global model ==  train loss 0.683 | test loss 1.243 | train acc 0.712 | test acc 0.585 
+096 == clients == 0.654 train loss 0.525 | test loss 1.278 | train acc 0.774 | test acc 0.595    == global model ==  train loss 0.533 | test loss 1.226 | train acc 0.793 | test acc 0.585 
+097 == clients == 0.661 train loss 0.562 | test loss 1.307 | train acc 0.773 | test acc 0.572    == global model ==  train loss 0.511 | test loss 1.291 | train acc 0.799 | test acc 0.566 
+098 == clients == 0.647 train loss 0.701 | test loss 1.531 | train acc 0.691 | test acc 0.525    == global model ==  train loss 0.680 | test loss 1.497 | train acc 0.717 | test acc 0.526 
+099 == clients == 0.641 train loss 0.555 | test loss 1.286 | train acc 0.771 | test acc 0.597    == global model ==  train loss 0.537 | test loss 1.260 | train acc 0.771 | test acc 0.585 
+100 == clients == 0.649 train loss 0.513 | test loss 1.288 | train acc 0.799 | test acc 0.596    == global model ==  train loss 0.568 | test loss 1.276 | train acc 0.755 | test acc 0.590 
+global model -- val_loss=1.362 -- val_acc=0.588 -- test_loss=1.402 -- test_acc=0.583
+101 == clients == 0.637 train loss 0.607 | test loss 1.349 | train acc 0.755 | test acc 0.581    == global model ==  train loss 0.557 | test loss 1.336 | train acc 0.771 | test acc 0.573 
+102 == clients == 0.621 train loss 0.506 | test loss 1.284 | train acc 0.793 | test acc 0.606    == global model ==  train loss 0.534 | test loss 1.226 | train acc 0.771 | test acc 0.601 
+103 == clients == 0.644 train loss 0.567 | test loss 1.472 | train acc 0.757 | test acc 0.584    == global model ==  train loss 0.442 | test loss 1.422 | train acc 0.811 | test acc 0.589 
+104 == clients == 0.630 train loss 0.490 | test loss 1.294 | train acc 0.800 | test acc 0.597    == global model ==  train loss 0.574 | test loss 1.227 | train acc 0.769 | test acc 0.597 
+105 == clients == 0.598 train loss 0.501 | test loss 1.405 | train acc 0.762 | test acc 0.564    == global model ==  train loss 0.541 | test loss 1.376 | train acc 0.790 | test acc 0.566 
+106 == clients == 0.610 train loss 0.527 | test loss 1.360 | train acc 0.786 | test acc 0.593    == global model ==  train loss 0.549 | test loss 1.267 | train acc 0.778 | test acc 0.601 
+107 == clients == 0.604 train loss 0.548 | test loss 1.456 | train acc 0.774 | test acc 0.553    == global model ==  train loss 0.581 | test loss 1.395 | train acc 0.760 | test acc 0.557 
+108 == clients == 0.592 train loss 0.576 | test loss 1.537 | train acc 0.750 | test acc 0.531    == global model ==  train loss 0.675 | test loss 1.479 | train acc 0.712 | test acc 0.531 
+109 == clients == 0.590 train loss 0.520 | test loss 1.498 | train acc 0.780 | test acc 0.552    == global model ==  train loss 0.486 | test loss 1.470 | train acc 0.788 | test acc 0.540 
+110 == clients == 0.593 train loss 0.467 | test loss 1.319 | train acc 0.819 | test acc 0.590    == global model ==  train loss 0.465 | test loss 1.293 | train acc 0.814 | test acc 0.580 
+111 == clients == 0.594 train loss 0.616 | test loss 1.541 | train acc 0.738 | test acc 0.543    == global model ==  train loss 0.564 | test loss 1.483 | train acc 0.764 | test acc 0.549 
+112 == clients == 0.588 train loss 0.660 | test loss 1.948 | train acc 0.733 | test acc 0.453    == global model ==  train loss 0.712 | test loss 1.888 | train acc 0.682 | test acc 0.458 
+113 == clients == 0.582 train loss 0.542 | test loss 1.543 | train acc 0.780 | test acc 0.578    == global model ==  train loss 0.582 | test loss 1.488 | train acc 0.752 | test acc 0.587 
+114 == clients == 0.570 train loss 0.573 | test loss 1.409 | train acc 0.776 | test acc 0.608    == global model ==  train loss 0.538 | test loss 1.340 | train acc 0.780 | test acc 0.602 
+115 == clients == 0.574 train loss 0.551 | test loss 1.541 | train acc 0.757 | test acc 0.562    == global model ==  train loss 0.592 | test loss 1.476 | train acc 0.769 | test acc 0.571 
+116 == clients == 0.569 train loss 0.544 | test loss 1.564 | train acc 0.766 | test acc 0.543    == global model ==  train loss 0.535 | test loss 1.551 | train acc 0.767 | test acc 0.540 
+117 == clients == 0.558 train loss 0.639 | test loss 1.588 | train acc 0.727 | test acc 0.541    == global model ==  train loss 0.560 | test loss 1.515 | train acc 0.766 | test acc 0.540 
+118 == clients == 0.545 train loss 0.453 | test loss 1.491 | train acc 0.804 | test acc 0.590    == global model ==  train loss 0.414 | test loss 1.448 | train acc 0.826 | test acc 0.583 
+119 == clients == 0.552 train loss 0.486 | test loss 1.511 | train acc 0.795 | test acc 0.571    == global model ==  train loss 0.455 | test loss 1.452 | train acc 0.792 | test acc 0.561 
+120 == clients == 0.535 train loss 0.594 | test loss 1.752 | train acc 0.762 | test acc 0.535    == global model ==  train loss 0.640 | test loss 1.760 | train acc 0.705 | test acc 0.516 
+121 == clients == 0.548 train loss 0.835 | test loss 1.665 | train acc 0.700 | test acc 0.589    == global model ==  train loss 0.769 | test loss 1.560 | train acc 0.722 | test acc 0.583 
+122 == clients == 0.544 train loss 0.558 | test loss 1.818 | train acc 0.785 | test acc 0.513    == global model ==  train loss 0.571 | test loss 1.845 | train acc 0.755 | test acc 0.497 
+123 == clients == 0.539 train loss 0.520 | test loss 1.475 | train acc 0.780 | test acc 0.572    == global model ==  train loss 0.540 | test loss 1.448 | train acc 0.769 | test acc 0.562 
+124 == clients == 0.516 train loss 0.483 | test loss 1.555 | train acc 0.797 | test acc 0.562    == global model ==  train loss 0.497 | test loss 1.532 | train acc 0.807 | test acc 0.552 
+125 == clients == 0.516 train loss 0.545 | test loss 1.629 | train acc 0.780 | test acc 0.601    == global model ==  train loss 0.534 | test loss 1.554 | train acc 0.771 | test acc 0.597 
+126 == clients == 0.537 train loss 0.499 | test loss 1.811 | train acc 0.783 | test acc 0.561    == global model ==  train loss 0.607 | test loss 1.743 | train acc 0.747 | test acc 0.557 
+127 == clients == 0.524 train loss 0.459 | test loss 1.578 | train acc 0.830 | test acc 0.562    == global model ==  train loss 0.480 | test loss 1.517 | train acc 0.778 | test acc 0.547 
+128 == clients == 0.510 train loss 0.415 | test loss 1.518 | train acc 0.835 | test acc 0.607    == global model ==  train loss 0.448 | test loss 1.496 | train acc 0.802 | test acc 0.599 
+129 == clients == 0.502 train loss 0.412 | test loss 1.555 | train acc 0.812 | test acc 0.617    == global model ==  train loss 0.430 | test loss 1.515 | train acc 0.844 | test acc 0.602 
+130 == clients == 0.507 train loss 0.554 | test loss 1.560 | train acc 0.776 | test acc 0.609    == global model ==  train loss 0.531 | test loss 1.538 | train acc 0.786 | test acc 0.608 
+131 == clients == 0.508 train loss 0.442 | test loss 1.567 | train acc 0.807 | test acc 0.594    == global model ==  train loss 0.523 | test loss 1.506 | train acc 0.788 | test acc 0.594 
+132 == clients == 0.501 train loss 0.611 | test loss 1.524 | train acc 0.764 | test acc 0.606    == global model ==  train loss 0.498 | test loss 1.454 | train acc 0.802 | test acc 0.608 
+133 == clients == 0.494 train loss 0.548 | test loss 1.610 | train acc 0.797 | test acc 0.547    == global model ==  train loss 0.537 | test loss 1.593 | train acc 0.807 | test acc 0.536 
+134 == clients == 0.493 train loss 0.423 | test loss 1.461 | train acc 0.839 | test acc 0.554    == global model ==  train loss 0.460 | test loss 1.439 | train acc 0.814 | test acc 0.547 
+135 == clients == 0.485 train loss 0.371 | test loss 1.591 | train acc 0.847 | test acc 0.566    == global model ==  train loss 0.375 | test loss 1.569 | train acc 0.854 | test acc 0.552 
+136 == clients == 0.493 train loss 0.466 | test loss 1.773 | train acc 0.802 | test acc 0.534    == global model ==  train loss 0.472 | test loss 1.698 | train acc 0.776 | test acc 0.535 
+137 == clients == 0.475 train loss 0.390 | test loss 1.571 | train acc 0.849 | test acc 0.542    == global model ==  train loss 0.396 | test loss 1.536 | train acc 0.856 | test acc 0.536 
+138 == clients == 0.460 train loss 0.369 | test loss 1.434 | train acc 0.844 | test acc 0.579    == global model ==  train loss 0.438 | test loss 1.394 | train acc 0.797 | test acc 0.566 
+139 == clients == 0.464 train loss 0.461 | test loss 1.623 | train acc 0.812 | test acc 0.552    == global model ==  train loss 0.447 | test loss 1.546 | train acc 0.821 | test acc 0.559 
+140 == clients == 0.478 train loss 0.511 | test loss 1.848 | train acc 0.773 | test acc 0.543    == global model ==  train loss 0.486 | test loss 1.822 | train acc 0.783 | test acc 0.530 
+141 == clients == 0.451 train loss 0.385 | test loss 1.724 | train acc 0.845 | test acc 0.576    == global model ==  train loss 0.403 | test loss 1.606 | train acc 0.821 | test acc 0.589 
+142 == clients == 0.469 train loss 0.404 | test loss 1.656 | train acc 0.833 | test acc 0.593    == global model ==  train loss 0.300 | test loss 1.582 | train acc 0.877 | test acc 0.592 
+143 == clients == 0.445 train loss 0.452 | test loss 1.765 | train acc 0.811 | test acc 0.565    == global model ==  train loss 0.400 | test loss 1.681 | train acc 0.823 | test acc 0.568 
+144 == clients == 0.455 train loss 0.524 | test loss 1.765 | train acc 0.793 | test acc 0.542    == global model ==  train loss 0.509 | test loss 1.744 | train acc 0.812 | test acc 0.540 
+145 == clients == 0.454 train loss 0.356 | test loss 1.531 | train acc 0.858 | test acc 0.624    == global model ==  train loss 0.299 | test loss 1.497 | train acc 0.873 | test acc 0.622 
+146 == clients == 0.437 train loss 0.364 | test loss 1.676 | train acc 0.842 | test acc 0.576    == global model ==  train loss 0.331 | test loss 1.598 | train acc 0.863 | test acc 0.578 
+147 == clients == 0.444 train loss 0.378 | test loss 1.707 | train acc 0.845 | test acc 0.537    == global model ==  train loss 0.385 | test loss 1.661 | train acc 0.837 | test acc 0.531 
+148 == clients == 0.433 train loss 0.420 | test loss 1.737 | train acc 0.835 | test acc 0.530    == global model ==  train loss 0.410 | test loss 1.657 | train acc 0.837 | test acc 0.526 
+149 == clients == 0.422 train loss 0.382 | test loss 1.843 | train acc 0.844 | test acc 0.582    == global model ==  train loss 0.454 | test loss 1.761 | train acc 0.809 | test acc 0.578 
+150 == clients == 0.432 train loss 0.511 | test loss 1.973 | train acc 0.809 | test acc 0.546    == global model ==  train loss 0.465 | test loss 1.873 | train acc 0.793 | test acc 0.550 
+global model -- val_loss=2.064 -- val_acc=0.547 -- test_loss=2.065 -- test_acc=0.545
+151 == clients == 0.415 train loss 0.413 | test loss 1.869 | train acc 0.832 | test acc 0.548    == global model ==  train loss 0.401 | test loss 1.807 | train acc 0.835 | test acc 0.531 
+152 == clients == 0.410 train loss 0.321 | test loss 1.777 | train acc 0.870 | test acc 0.569    == global model ==  train loss 0.343 | test loss 1.773 | train acc 0.873 | test acc 0.556 
+153 == clients == 0.413 train loss 0.355 | test loss 1.909 | train acc 0.858 | test acc 0.524    == global model ==  train loss 0.433 | test loss 1.868 | train acc 0.830 | test acc 0.514 
+154 == clients == 0.412 train loss 0.345 | test loss 1.675 | train acc 0.858 | test acc 0.573    == global model ==  train loss 0.323 | test loss 1.608 | train acc 0.873 | test acc 0.573 
+155 == clients == 0.400 train loss 0.365 | test loss 1.739 | train acc 0.847 | test acc 0.575    == global model ==  train loss 0.408 | test loss 1.710 | train acc 0.844 | test acc 0.557 
+156 == clients == 0.381 train loss 0.386 | test loss 1.810 | train acc 0.839 | test acc 0.583    == global model ==  train loss 0.324 | test loss 1.772 | train acc 0.854 | test acc 0.571 
+157 == clients == 0.392 train loss 0.352 | test loss 1.744 | train acc 0.840 | test acc 0.590    == global model ==  train loss 0.376 | test loss 1.679 | train acc 0.840 | test acc 0.592 
+158 == clients == 0.414 train loss 0.346 | test loss 1.672 | train acc 0.858 | test acc 0.590    == global model ==  train loss 0.330 | test loss 1.612 | train acc 0.852 | test acc 0.580 
+159 == clients == 0.413 train loss 0.338 | test loss 1.878 | train acc 0.861 | test acc 0.560    == global model ==  train loss 0.327 | test loss 1.851 | train acc 0.863 | test acc 0.545 
+160 == clients == 0.403 train loss 0.364 | test loss 1.963 | train acc 0.839 | test acc 0.569    == global model ==  train loss 0.331 | test loss 1.936 | train acc 0.852 | test acc 0.556 
+161 == clients == 0.404 train loss 0.316 | test loss 1.633 | train acc 0.873 | test acc 0.611    == global model ==  train loss 0.318 | test loss 1.614 | train acc 0.868 | test acc 0.606 
+162 == clients == 0.393 train loss 0.392 | test loss 1.743 | train acc 0.842 | test acc 0.577    == global model ==  train loss 0.343 | test loss 1.705 | train acc 0.858 | test acc 0.576 
+163 == clients == 0.375 train loss 0.316 | test loss 1.769 | train acc 0.877 | test acc 0.573    == global model ==  train loss 0.314 | test loss 1.667 | train acc 0.872 | test acc 0.552 
+164 == clients == 0.389 train loss 0.334 | test loss 1.666 | train acc 0.859 | test acc 0.590    == global model ==  train loss 0.324 | test loss 1.632 | train acc 0.865 | test acc 0.578 
+165 == clients == 0.390 train loss 0.297 | test loss 1.918 | train acc 0.872 | test acc 0.552    == global model ==  train loss 0.271 | test loss 1.836 | train acc 0.891 | test acc 0.554 
+166 == clients == 0.388 train loss 0.336 | test loss 1.861 | train acc 0.859 | test acc 0.572    == global model ==  train loss 0.435 | test loss 1.839 | train acc 0.809 | test acc 0.566 
+167 == clients == 0.365 train loss 0.307 | test loss 1.833 | train acc 0.863 | test acc 0.583    == global model ==  train loss 0.325 | test loss 1.723 | train acc 0.865 | test acc 0.578 
+168 == clients == 0.368 train loss 0.328 | test loss 2.028 | train acc 0.865 | test acc 0.548    == global model ==  train loss 0.324 | test loss 1.849 | train acc 0.872 | test acc 0.550 
+169 == clients == 0.387 train loss 0.345 | test loss 1.820 | train acc 0.852 | test acc 0.531    == global model ==  train loss 0.366 | test loss 1.793 | train acc 0.859 | test acc 0.524 
+170 == clients == 0.348 train loss 0.317 | test loss 1.737 | train acc 0.866 | test acc 0.591    == global model ==  train loss 0.297 | test loss 1.653 | train acc 0.885 | test acc 0.602 
+171 == clients == 0.349 train loss 0.424 | test loss 1.887 | train acc 0.816 | test acc 0.572    == global model ==  train loss 0.432 | test loss 1.812 | train acc 0.828 | test acc 0.556 
+172 == clients == 0.367 train loss 0.408 | test loss 2.039 | train acc 0.821 | test acc 0.544    == global model ==  train loss 0.447 | test loss 2.014 | train acc 0.812 | test acc 0.533 
+173 == clients == 0.371 train loss 0.357 | test loss 1.919 | train acc 0.856 | test acc 0.554    == global model ==  train loss 0.358 | test loss 1.829 | train acc 0.852 | test acc 0.549 
+174 == clients == 0.337 train loss 0.313 | test loss 1.819 | train acc 0.866 | test acc 0.578    == global model ==  train loss 0.314 | test loss 1.694 | train acc 0.873 | test acc 0.585 
+175 == clients == 0.352 train loss 0.426 | test loss 1.920 | train acc 0.826 | test acc 0.576    == global model ==  train loss 0.523 | test loss 1.826 | train acc 0.807 | test acc 0.582 
+176 == clients == 0.355 train loss 0.309 | test loss 1.763 | train acc 0.870 | test acc 0.579    == global model ==  train loss 0.330 | test loss 1.719 | train acc 0.849 | test acc 0.585 
+177 == clients == 0.332 train loss 0.294 | test loss 1.949 | train acc 0.884 | test acc 0.548    == global model ==  train loss 0.279 | test loss 1.897 | train acc 0.891 | test acc 0.533 
+178 == clients == 0.338 train loss 0.358 | test loss 1.852 | train acc 0.840 | test acc 0.579    == global model ==  train loss 0.309 | test loss 1.841 | train acc 0.872 | test acc 0.568 
+179 == clients == 0.341 train loss 0.327 | test loss 1.982 | train acc 0.861 | test acc 0.566    == global model ==  train loss 0.348 | test loss 1.928 | train acc 0.837 | test acc 0.559 
+180 == clients == 0.337 train loss 0.402 | test loss 2.110 | train acc 0.832 | test acc 0.577    == global model ==  train loss 0.429 | test loss 1.968 | train acc 0.847 | test acc 0.592 
+181 == clients == 0.340 train loss 0.325 | test loss 1.857 | train acc 0.852 | test acc 0.565    == global model ==  train loss 0.293 | test loss 1.774 | train acc 0.884 | test acc 0.557 
+182 == clients == 0.328 train loss 0.305 | test loss 2.103 | train acc 0.889 | test acc 0.560    == global model ==  train loss 0.279 | test loss 2.077 | train acc 0.889 | test acc 0.552 
+183 == clients == 0.337 train loss 0.221 | test loss 2.010 | train acc 0.903 | test acc 0.562    == global model ==  train loss 0.236 | test loss 1.979 | train acc 0.911 | test acc 0.554 
+184 == clients == 0.319 train loss 0.187 | test loss 1.890 | train acc 0.936 | test acc 0.582    == global model ==  train loss 0.229 | test loss 1.864 | train acc 0.896 | test acc 0.573 
+185 == clients == 0.318 train loss 0.334 | test loss 2.074 | train acc 0.859 | test acc 0.556    == global model ==  train loss 0.320 | test loss 2.016 | train acc 0.863 | test acc 0.549 
+186 == clients == 0.310 train loss 0.383 | test loss 2.131 | train acc 0.835 | test acc 0.555    == global model ==  train loss 0.438 | test loss 2.112 | train acc 0.809 | test acc 0.549 
+187 == clients == 0.326 train loss 0.337 | test loss 2.051 | train acc 0.844 | test acc 0.536    == global model ==  train loss 0.310 | test loss 1.992 | train acc 0.865 | test acc 0.524 
+188 == clients == 0.320 train loss 0.341 | test loss 2.079 | train acc 0.852 | test acc 0.561    == global model ==  train loss 0.292 | test loss 1.997 | train acc 0.878 | test acc 0.559 
+189 == clients == 0.329 train loss 0.187 | test loss 1.890 | train acc 0.939 | test acc 0.581    == global model ==  train loss 0.224 | test loss 1.803 | train acc 0.901 | test acc 0.578 
+190 == clients == 0.328 train loss 0.237 | test loss 2.000 | train acc 0.899 | test acc 0.554    == global model ==  train loss 0.277 | test loss 1.940 | train acc 0.885 | test acc 0.550 
+191 == clients == 0.309 train loss 0.338 | test loss 2.089 | train acc 0.856 | test acc 0.552    == global model ==  train loss 0.321 | test loss 2.033 | train acc 0.863 | test acc 0.543 
+192 == clients == 0.312 train loss 0.321 | test loss 2.093 | train acc 0.865 | test acc 0.529    == global model ==  train loss 0.277 | test loss 2.023 | train acc 0.882 | test acc 0.528 
+193 == clients == 0.321 train loss 0.339 | test loss 2.042 | train acc 0.863 | test acc 0.575    == global model ==  train loss 0.368 | test loss 1.981 | train acc 0.833 | test acc 0.559 
+194 == clients == 0.302 train loss 0.354 | test loss 2.071 | train acc 0.854 | test acc 0.540    == global model ==  train loss 0.297 | test loss 2.034 | train acc 0.889 | test acc 0.531 
+195 == clients == 0.303 train loss 0.261 | test loss 2.060 | train acc 0.877 | test acc 0.554    == global model ==  train loss 0.236 | test loss 2.012 | train acc 0.913 | test acc 0.554 
+196 == clients == 0.281 train loss 0.188 | test loss 1.933 | train acc 0.922 | test acc 0.583    == global model ==  train loss 0.196 | test loss 1.900 | train acc 0.918 | test acc 0.583 
+197 == clients == 0.286 train loss 0.285 | test loss 1.988 | train acc 0.873 | test acc 0.572    == global model ==  train loss 0.290 | test loss 1.997 | train acc 0.873 | test acc 0.556 
+198 == clients == 0.287 train loss 0.225 | test loss 1.875 | train acc 0.906 | test acc 0.590    == global model ==  train loss 0.253 | test loss 1.857 | train acc 0.898 | test acc 0.576 
+199 == clients == 0.288 train loss 0.353 | test loss 2.374 | train acc 0.847 | test acc 0.530    == global model ==  train loss 0.405 | test loss 2.309 | train acc 0.821 | test acc 0.530 
+200 == clients == 0.284 train loss 0.277 | test loss 2.212 | train acc 0.885 | test acc 0.577    == global model ==  train loss 0.203 | test loss 2.177 | train acc 0.925 | test acc 0.566 
+global model -- val_loss=2.451 -- val_acc=0.557 -- test_loss=2.378 -- test_acc=0.560
+===========total runtime 6985===========
