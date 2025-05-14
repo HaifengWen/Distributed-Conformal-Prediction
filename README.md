@@ -1,6 +1,6 @@
 # Distributed Conformal Prediction via Message Passing
 
-The repository provides implementations of quantile-based distributed conformal prediction (Q-DCP) and histogram-based distributed conformal prediction (H-DCP) of the paper [1]. *This code is based on the open-source repository of [federated conformal prediction (FCP)](https://github.com/clu5/federated-conformal) [2].*
+The repository provides implementations of quantile-based distributed conformal prediction (Q-DCP) and histogram-based distributed conformal prediction (H-DCP) of the [paper](https://arxiv.org/pdf/2501.14544) [1]. *This code is based on the open-source repository of [federated conformal prediction (FCP)](https://github.com/clu5/federated-conformal) [2].*
 
 ## Abstract
 
